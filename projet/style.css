@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+:root {
+    --yellow: #FCB72B;  
+    --darkNavy: #495567; 
+    --dimGrey: #939CAA;
+    --lightGrey: #E5ECF4;
+    --snow: #F2F5F9;
+    --lightYellow: #FFF4DF;
+}
+
+/* HEADER */
+
+header{
+    margin: 0 auto;
+    width: 1110px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 21.5px;
+    margin-bottom: 21.5px;
+}
+
+header img{
+    width: 107px;
+}
+
+header ul li a{
+    text-decoration: none;
+    font-family: "Space Mono", serif;
+    font-size: 15px;
+    color: var(--dimGrey);
+    /* color: #939CAA; */
+    line-height: 25px;
+    font-weight: bold;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-left: 60px;
+}
+
+header .button{
+    font-family: "Space Mono", serif;
+    font-size: 15px;
+    background-color: var(--yellow);
+    line-height: 25px;
+    width: 180px;
+    height: 53px;
+    border: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.container-left{
+    display: flex;
+}
+
+/* MAIN */
+
+main{
+    height: 200px;
+    background-color: var(--lightYellow);
+}
+
+/* FOOTER */
+
+footer .espace{
+    background-color: var(--darkNavy);
+}
+
+footer .signUp{
+    height: 300px;
+    display: flex;
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titleFooter{
+    color: white;
+    font-family: "Space Mono", serif;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: bold;
+    width: 415px;
+}
+.cardRight{
+    display: flex;
+    gap: 20px;
+}
+.cardApple, .googlePlay{
+    background-color: #E5ECF4;
+}
+
+.cardApple img, .googlePlay img{
+    height: 28px;
+}
+
+.txt-apple .available-apple, .txt-googlePlay .available-googlePlay{
+    /* color: white; */
+    font-family: "Space Mono", serif;
+    font-size: 10px;
+    font-weight: bold;
+    /* color: var(--darkNavy); */
+}
+
+.txt-apple .AppStore, .txt-googlePlay .googlePlayTxt{
+    /* color: white; */
+    font-family: "Space Mono", serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+    /* color: var(--darkNavy); */
+}
+
+.cardApple{
+    display: flex;
+    width: 159px;
+    height: 56px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.googlePlay{
+    display: flex;
+    width: 182px;
+    height: 56px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* navbar bottom */
+
+footer .navbar-bottom{
+    background-color: #333A44;
+}
+
+footer .navbar-bottom-margin{
+    width: 1110px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+footer .navbar-bottom-margin ul {
+    display: flex;
+    gap: 20px;
+}
+
+footer .navbar-bottom-margin ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: "Space Mono", serif;
+}
+
+footer .navbar-bottom-margin img{
+    width: 107px;
+}
+
+.social-network img{
+    
+}

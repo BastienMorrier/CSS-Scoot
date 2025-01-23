@@ -1,0 +1,399 @@
+
+@media screen and (max-width: 768px) {
+    header{
+        width: 700px;   
+    }
+
+    /* section */
+    .container-section{
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-section .content-section{
+        /* width: 520px; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* align-items: flex-end; */
+        align-items: center;
+    }
+
+    .positionButton{
+        justify-content: center;
+    }
+
+    /* Article */
+    article .firstArticle{
+        flex-direction: column-reverse;
+    }
+
+    article .firstArticle .imgFirstArticle{
+        margin-bottom: 70px;
+    }
+
+    /* main */
+    main{
+        flex-direction: column;
+        width: 573px;
+        /* justify-content: center; */
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .locate{
+        display: flex;
+        gap: 80px;
+    }
+
+    /* article */
+    .firstArticle.first{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .firstArticle{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    h2{
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .txtArticle{
+        text-align: center;
+    }
+
+    .positionButtonFirstArticle{
+        justify-content: center;
+    }
+
+    .imgFirstArticle{
+        margin-bottom: 50px;
+    }
+
+    .txtFirstArticle{
+        width: 570px;
+    }
+
+    .position-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .cards{
+        width: 500px;
+        margin-bottom: 30px;
+    }
+    /*aside*/
+    aside{
+        width: 700px;
+    }
+
+    /* footer */
+    footer .signUp{
+        width: 700px;    
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .titleFooter{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    footer .navbar-bottom-margin{
+        width: 700px;
+    }
+
+    /* position absolute */
+    .debutLine{
+        display: none;
+    }
+
+    section img.finFlecheDroite {
+        position: absolute;
+        top: 470px;
+        left: -135px;
+    }
+
+    /* aaaa */
+    .lineGreyIndexVertical{
+        display: block;
+        position: absolute;
+        left: 41px;
+        top: -600px;
+        z-index: -99;
+    }
+
+    .lineGreyIndex{
+        display: none;
+    }
+
+    .articleFlecheDirGauche {
+        position: absolute;
+        bottom: 40%;
+        right: 0;
+        z-index: 999;
+    }
+
+    .articleFlecheDirGaucheHaut {
+        position: absolute;
+        top: 9%;
+        right: -50%;
+        z-index: 999;
+    }
+
+    .articleRondBleuFondDroite {
+        position: absolute;
+        bottom: 43%;
+        right: 0;
+    }
+
+    .articleRondBleuFondGauche {
+        position: absolute;
+        left: 0%;
+        bottom: 43%;
+    }
+}
+
+
+/* MEDIA QUERIRES 375px */
+
+@media screen and (max-width: 375px) {
+
+
+    header ul, header .button{
+        display: none;
+    }
+
+    header{
+        width: 290px;
+        justify-content: center;
+        /* position: relative; */
+    }
+
+    header img{
+        width: 75px;
+    }
+
+    .image-burger-menu{
+        display: block;
+        position: absolute;
+        left: 0;
+        height: 16px;
+    }
+
+    /* section */
+    section img.rondBlancFond {
+        display: none;
+    }
+
+    section img.finFlecheDroite {
+        top: 460px;
+        left: -324px;
+    }
+
+    .articleFlecheDirGauche {
+        position: absolute;
+        bottom: 49%;
+        right: -99%;
+        z-index: 999;
+    }
+
+    h1{
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    section .container-section .items{
+        width: 320px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    section{
+        background-size: 200% !important;
+        background-position: 50% 50% !important;
+        height: 160px;
+    }
+
+    .lineGreyIndexVertical{
+        display: none;
+    }
+
+    main{
+        width: 320px;
+        height: 100%;
+    }
+
+    .locate{
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .flexBoxTexte{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .txtLocateApp{
+        text-align: center;
+    }
+
+    .locate .tailleIcone img{
+        width: 56px;
+    }
+
+    img.iconeApp{
+        margin-bottom: 0;
+    }
+
+    section .buttonSlider a {
+        padding: 10px 30px;
+    }
+
+    /* article */
+    .txtArticle{
+        width: 320px;
+    }
+
+    .articleFlecheDirDroite {
+        position: absolute;
+        top: 0;
+        left: -51%;
+        z-index: 999;
+    }
+
+    .articleFlecheDirGaucheHaut {
+        position: absolute;
+        top: 0;
+        right: -139%;
+        z-index: 999;
+    }
+
+    h2{
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+
+    .articleRondBleuFondDroite, .articleRondBleuFondGauche{
+        display: none;
+    }
+
+    article .button a {
+        padding: 10px 30px;
+    }
+
+    .imgFirstArticle{
+        width: 311px;
+        height: 311px;
+    }
+
+    .txtFirstArticle{
+        width: 320px;
+    }
+
+    .firstArticle{
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* aside  */
+    aside {
+        width: 320px;
+    }
+
+    aside .general-manager {
+        flex-direction: column;
+    }
+
+    aside .general-manager h3{
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+        margin-bottom: 7px;
+    }
+
+    aside .general-manager p{
+        margin-bottom: 15px;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    aside .button {
+        margin-top: 7px;
+    }
+
+    /* footer */
+    footer .signUp{
+        width: 320px;
+        align-items: center;
+    }
+    
+    footer .titleFooter{
+        width: 320px;
+    }
+
+    footer .titleFooter{
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .cardApple, .googlePlay{
+        width: 134px;
+        height: 40px;
+    }
+
+    footer .cardApple img, footer .googlePlay img{
+        height: 20px;
+    }
+
+    footer .cardApple .available-apple,  footer .googlePlay .available-googlePlay{
+        font-size: 7px;
+    }
+
+    footer .txt-apple .AppStore,  footer .txt-googlePlay .googlePlayTxt{
+        font-size: 16px;
+    }
+
+    footer ul{
+        flex-direction: column;   
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    footer .navbar-bottom-margin .navbar-bottom-container-left{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .navbar-bottom-margin {
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+    }
+
+    footer .navbar-bottom-margin ul{
+        margin-left: 0;
+    }
+
+    footer .navbar-bottom-margin .whiteLogo {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    footer .social-network{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    }
+}

@@ -21,10 +21,13 @@ html, body {
 
 /* HEADER */
 
+.image-burger-menu{ 
+    display:none;
+}
+
 header{
     margin: 0 auto;
     width: 1110px;
-    
     display: flex;
     flex-direction: row;
     justify-content: space-between;

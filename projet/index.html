@@ -6,13 +6,22 @@
     <title>Scoot</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQueries.css">
 </head>
 <body>
     <header>
+        <img src="img/BurgerMenu.svg" alt="BurgerMenu" class="image-burger-menu">
         <div class="container-left">
             <a href="index.html">
                 <img src="img/scoot.svg" alt="Logo">
             </a>
+            <!-- <div class="navbar-mobile">
+                <a href="#">Home</a>
+                <a href="#">New</a>
+                <a href="#">Popular</a>
+                <a href="#">Trending</a>
+                <a href="#">Categories</a>
+            </div> -->
             <ul>
                 <li><a href="about/index.html">About</a></li>
                 <li><a href="#">Location</a></li>
@@ -180,5 +189,13 @@
             </div>
         </div>
     </footer>
+    <script>
+        const menuHamburger = document.querySelector(".image-burger-menu");
+        const navLinks = document.querySelector(".navbar-mobile");
+
+        menuHamburger.addEventListener('click', ()=>{
+            navLinks.classList.toggle("mobile-menu");
+        })
+    </script>
 </body>
 </html>
